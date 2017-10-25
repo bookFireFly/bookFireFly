@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS链接式</title>
+<link href="css1.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h2>h2</h2>
+<p style="color:red;">p</p>
+<h1>h1</h1>
+<h3 style="color:red;font-size:80px;">h3</h3>
+
+<h1>
+小结：CSS链接式没有效果
+</h1>
+
+</body>
+</html>

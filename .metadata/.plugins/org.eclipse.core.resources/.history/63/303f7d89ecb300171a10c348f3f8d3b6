@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>if三种写法</title>
+</head>
+<body>
+<script type="text/javascript">
+var year=2016;
+var month1=0,month2=0,month3;
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>一个简单的文档</title>
+<script type="text/javascript">
+function getElement(Node){
+	for (var m=Node.firstChild;m!=null;m=m.nextSibling){
+		
+	}
+}
+function show(){
+	
+}
+for (var g=0;g>5;g++){
+	document.write(g);
+}
+</script>
+</head>
+<body onload="show()">
+	欢迎访问明日科技网站！
+	<br>
+	<a href="http://www.mingribook.com"> http://www.mingribook.com</a>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>使用删除线样式标注商品特价</title>
+</head>
+<body>
+<img alt="" src="images/bike.jpg"><br>
+&nbsp;&nbsp;<span style="text-decoration:line-through;">原价：796（元）</span>&nbsp;&nbsp;&nbsp;
+<span>现价：399（元）</span>
+</body>
+</html>

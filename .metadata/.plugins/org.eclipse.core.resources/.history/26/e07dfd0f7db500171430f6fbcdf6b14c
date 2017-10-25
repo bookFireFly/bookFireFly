@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+function realSystime(clock){
+	var now=new Date();
+	var year=now.getFullYear();
+	var month=now.getMonth();
+	var date=now.getDate();
+	var day=now.getDay();
+	var hour=now.getHours();
+	var minu=now.getMinutes();
+	var sec=now.getSeconds();
+	month=month+1
+	var arr_week=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六")
+	var week=arr_week[day];
+	var time=year+"年"+month+"月"+date+"日 "+week+" "+hour+":"+minu+":"+sec;
+	clock.innerHTML="当前时间： "+time;
+}
+window.onload=function(){
+	window.setInterval("realSystime(clock)",1000);
+}
+</script>
+<title>实时显示系统时间</title>
+</head>
+<body>
+<h1>clock的使用——window.onload,realSystime(myClock),myClock.innerHTML</h1>
+<h1>修改成myClock</h1>
+<h1>var myClock=document.getElementById("clock")</h1>
+<h1>var myClock不能使用window.setInterval("realSystime(myClock)",1000);且在window.onload</h1>
+<div id="clock"></div>
+<h1>body:myClock.javascript</h1>
+<div id="myOnceClock"></div>
+<script type="text/javascript">
+	realSystime(myOnceClock);
+</script>
+<h1>myGetClock</h1>
+<div id="myGetClock"></div>
+<script type="text/javascript">
+	realSystime(document.getElementById("myGetClock"));
+</script>
+<h1>myVarClock</h1>
+<div id="myVarClock"></div>
+<script type="text/javascript">
+	var myVarClock=document.getElementById("myVarClock");
+	realSystime(myVarClock);
+</script>
+<h1>diffClock</h1>
+<div id="diffClock"></div>
+<script type="text/javascript">
+	var myDiffClock=document.getElementById("diffClock");
+	realSystime(myDiffClock);
+</script>
+<h1>myIntervalClock</h1>
+</body>
+</html>

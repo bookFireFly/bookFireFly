@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>if三种写法</title>
+</head>
+<body>
+<script type="text/javascript">
+var year=2016;
+var month1=0,month2=0,month3;
+var msg;
+if ((year%4=0 && year%100!=0)||year%400=0){
+	month1=29
+}else{
+	month1=28
+}
+msg=month1;
+alert(msg);
+</script>
+</body>
+</html>

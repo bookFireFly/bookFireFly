@@ -1,0 +1,8 @@
+Table 对象方法
+deleteRow()	从表格删除一行。
+
+Table 对象集合
+rows	返回包含表格中所有行的一个数组。
+
+
+/JavaScriptMingriBook/Main/12操作文档.html

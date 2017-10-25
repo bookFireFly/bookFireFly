@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>一个简单的文档</title>
+</head>
+<body onload="show()">
+	欢迎访问明日科技网站！
+	<br>
+	<a href="http://www.mingribook.com"> http://www.mingribook.com</a>
+</body>
+</html>

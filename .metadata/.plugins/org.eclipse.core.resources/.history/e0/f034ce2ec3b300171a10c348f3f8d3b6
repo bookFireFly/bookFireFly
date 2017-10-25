@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>使用CSS2对页面中的文字添加彩色边框</title>
+</head>
+<body>
+<table>
+<tr>
+<td border="1">style要放在Head里，我偏放在Body里。</h1></td>
+</tr>
+</table>
+<style>
+#myboarder{
+}
+</style>
+</body>
+</html>

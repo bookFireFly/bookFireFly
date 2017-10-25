@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>一个简单的文档</title>
+<script type="text/javascript">
+var elementList="";
+function getElement(Node){
+	var total=0;
+	if (Node.nodeType==1){
+		total++
+		elementList=elementList+Node.nodeName+"、 "；
+	}
+	for (var m=Node.firstChild;m!=null;m=m.nextSibling){
+		total=total+getElement(m);
+	}
+	return total;
+}
+function show(){
+	var number=getElement(document);
+	alert("该文档中包哈："+number+"个标记");
+} 
+elementList=""
+</script>
+</head>
+<body onload="show()">
+	欢迎访问明日科技网站！
+	<br>
+	<a href="http://www.mingribook.com"> http://www.mingribook.com</a>
+</body>
+</html>

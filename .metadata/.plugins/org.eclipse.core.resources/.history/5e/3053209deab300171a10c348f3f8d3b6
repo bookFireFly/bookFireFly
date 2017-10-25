@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>计算商品金额</title>
+</head>
+<body>
+<script type="text/javascript">
+var price=992;				//定义商品单价
+var number=10;			//定义商品数量
+var sum=price*number;		//计算商品金额
+alert(sum);				//显示商品金额
+</script>
+</body>
+</html>

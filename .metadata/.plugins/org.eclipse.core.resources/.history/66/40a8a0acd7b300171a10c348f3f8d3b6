@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>改变鼠标的形状</title>
+</head>
+<body>
+<h1><font color="red">失败</font>的实例代码</h1>
+<a href="#" style="cursor:url(note.ico);">将鼠标移动到我上，鼠标指针将变形</a>
+<a href="" style="cursor:url(note.ico);">将鼠标移动到我上，鼠标指针将变形</a>
+<a href="" style="cursor:url(images/note.ico);">将鼠标移动到我上，鼠标指针将变形</a>
+</body>
+</html>

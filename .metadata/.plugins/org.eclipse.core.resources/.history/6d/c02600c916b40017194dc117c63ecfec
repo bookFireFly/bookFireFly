@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>07累计和不大于10的自然数</title>
+</head>
+<body>
+<h1>"累加和不大于10的所有自然数为：<br>"</h1>
+<script type="text/javascript">
+var i=1;
+var sum=i;
+document.write("累加和不大于10的所有自然数为：<br>")
+while(sum<10){
+	sum=sum+i;
+	document.write(i+"<br>");
+	i++;
+}
+</script>
+<script type="text/javascript">
+var sum=0;
+var i=1;
+document.write("累加和不大于10的所有自然数为：<br>")
+do{
+	sum=sum+i
+	document.write(i+"<br>");
+	i++
+}while(sum<10);
+</script>
+<script type="text/javascript">
+var sum=0;
+for(i=0;i<100;i++){
+	sum=sum+i
+	if(sum>10) break;
+}
+document.write("0至"+i+"之间自然数的和为"+sum);
+</script>
+<h1>迭代i出了for循环，能取到i的值</h1>
+<h1>1000,1200,100,600,736,1107,1205大于1000的和</h1>
+<h1>total必须赋值0，不然算术运算出现结果NAN,total=0</h1>
+<script type="text/javascript">
+var total=0;
+var sum=new Array(1000,1200,100,600,736,1107,1205);
+for(i=0;i<sum.length;i++){
+	if(sum[i]<1000) continue;
+	total=total+sum[i];
+}
+document.write("累加和为："+total);
+</script>
+</body>
+</html>

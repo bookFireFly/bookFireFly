@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>验证登录信息</title>
+<!-- <link href="4验证登录信息.css" rel="stylesheet" type="text/css"> -->
+</head>
+<body>
+<form action=""name="form1" method="post">
+<table width="221" border="1" cellspacing="0" cellpadding="0" bordercolor="#FFFFFF" bordercolordark="#CCCCCC" bordercolorlight="#FFFFFF">
+<tr>
+	<td height="30" colspan="2" bgcolor="#eeeeee">用户登录</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>使用CSS3对页面中的文字添加彩色边框</title>
+<style>
+#boarder {	
+	border:solid 5px blue;
+	border-radius:20px;
+	-moz-border-radius:20px;	
+	padding:20px;
+	width:180px;
+	height:120px;	
+}
+</style>
+</head>
+<body>
+<div id="boarder"> 文字一<br>
+  文字二<br>
+  文字三<br>
+  文字四<br>
+  文字五<br>
+</div>
+</body>
+</html>

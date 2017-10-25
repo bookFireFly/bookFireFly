@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>验证登录信息</title>
+<link href="04验证登录信息.css" rel="stylesheet" type="text/css">
+<script language="javascript">
+	function check(){
+		if(form1.user.value==""){				//判断用户名是否为空
+			alert("请输入用户名！");form1.use`r.focus();return;
+		}else if(form1.pwd.value==""){			//判断密码是否为空
+			alert("请输入密码！");form1.pwd.focus();return;
+		}else{
+			form1.submit();					//提交表单
+		}
+	}
+</script>
+</head>
+<body>
+<h1 align=center>直接使用css样式表</h1>
+<form action=""name="form1" method="post">
+<table width="221" border="1" cellspacing="0" cellpadding="0" bordercolor="#FFFFFF" bordercolordark="#CCCCCC" bordercolorlight="#FFFFFF" >
+<tr>
+	<td height="30" colspan="2" bgcolor="#eeeeee">用户登录</td>
+</tr>
+<tr>
+	<td width="59" height="30">用户名：</td>
+	<td width="162"><input name="user" type="text" id="user"></td>
+</tr>
+<tr>
+        <td height="30">密&nbsp;&nbsp;码：</td>
+        <td><input name="pwd" type="text" id="pwd"></td>
+      </tr>
+      <tr>
+        <td height="30" colspan="2" align="center"><input name="Button" type="button" class="btn_grey" value="登录" onClick="check()">
+          &nbsp;
+        <input name="Submit2" type="reset" class="btn_grey" value="重置"></td>
+      </tr>
+    </table>
+</table>
+</form>
+</body>
+</html>

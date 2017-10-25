@@ -1,0 +1,4 @@
+<%@ page pageEncoding="GB18030"%>
+<%
+String copyright="$nbsp;All Copyright &*&copy; 2009 吉林省明日科技有限公司";
+%>

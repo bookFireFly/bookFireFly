@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=GBK"
+    pageEncoding="GBK"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>验证输入的日期格式是否正确</title>
+
+</head>
+<body>
+<form action="" method="post" name="form1">
+<table>
+<input name="sDate" type="text" id="sDate">
+<input name="Button" type="button" value="检测日期" onClick="check(form1)">
+</table>
+</form>
+
+</body>
+</html>

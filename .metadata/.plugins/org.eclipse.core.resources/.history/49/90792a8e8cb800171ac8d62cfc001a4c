@@ -1,0 +1,19 @@
+tabel的属性
+width="440" 
+height="85" 
+border="1" 
+cellpadding="0" 
+cellspacing="0" 
+style="font:9pt;" 
+
+bordercolordark="#666666" 
+bordercolorlight="#FFFFFF" 
+bordercolor="#FFFFFF"
+
+Windows为了使表格边框产生立体感，采用了双线条边框，并使的内外两条边框拥有不同颜色亮度值，使人在视觉上产生立体感。
+语法
+bordercolordark=“color”,例如bordercolordark="FF0000"(FF0000为十六进制颜色表示法)，表示边框暗色调为红色。
+常与bordercolorlight配合使用使表格边框产生立体感。
+
+ bordercolorlight与bordercolordark的用法（这种用法只限于IE）
+ http://blog.csdn.net/angel20082008/article/details/50832974

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>计算商品金额</title>
+</head>
+<body>
+<script type="text/javascript">
+var price=79.8
+var number=10
+var sum=price*number
+aler(sum);
+</script>
+</body>
+</html>

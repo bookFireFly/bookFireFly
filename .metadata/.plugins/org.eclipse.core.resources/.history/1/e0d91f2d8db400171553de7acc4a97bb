@@ -1,0 +1,13 @@
+HTML DOM 节点
+在 HTML DOM (Document Object Model) 中 , 每一个元素都是 节点:
+文档是一个文档。
+所有的HTML元素都是元素节点。
+所有 HTML 属性都是属性节点。
+文本插入到 HTML 元素是文本节点。are text nodes。
+注释是注释节点。
+
+Document 对象
+当浏览器载入 HTML 文档, 它就会成为 document 对象。
+document 对象是HTML文档的根节点与所有其他节点（元素节点，文本节点，属性节点, 注释节点）。
+Document 对象使我们可以从脚本中对 HTML 页面中的所有元素进行访问。
+提示：######### Document 对象是 Window 对象的一部分，可通过 window.document 属性对其进行访问。
