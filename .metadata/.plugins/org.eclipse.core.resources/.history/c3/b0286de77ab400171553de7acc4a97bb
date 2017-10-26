@@ -1,3 +1,0 @@
-/JavaScriptMingriBook/Main/07字符串是否为汉字.html
-var objExp=/[\u4E00-\u9FA5]{2,}/;	//创建RegExp对象
-

@@ -1,0 +1,7 @@
+解决中文乱码
+
+方法1:P119
+String str = new String(request.getParameter("user").getBytes("ISO-8859-1"),"GB18030");
+
+方法2:
+request.setCharacterEncoding("GB18030");

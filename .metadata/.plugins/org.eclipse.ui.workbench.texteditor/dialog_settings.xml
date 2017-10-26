@@ -13,6 +13,8 @@
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
 			<item value="ISO-8859-1"/>
+			<item value="GB18030"/>
+			<item value="UTF-8"/>
 			<item value="NO"/>
 			<item value="checkeNO"/>
 			<item value="thead"/>

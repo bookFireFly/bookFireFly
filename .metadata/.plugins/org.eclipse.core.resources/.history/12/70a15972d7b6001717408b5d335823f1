@@ -1,2 +1,0 @@
-document.createElement()	创建元素节点。
-document.createTextNode()	创建文本节点。

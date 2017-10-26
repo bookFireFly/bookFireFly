@@ -1,6 +1,0 @@
-HTML <table> 标签
-http://www.runoob.com/tags/tag-table.html
-
-两个属性：
-cellpadding	pixels	HTML5 不支持。规定单元边沿与其内容之间的空白。
-cellspacing	pixels	HTML5 不支持。规定单元格之间的空白。

@@ -1,0 +1,28 @@
+Form onsubmit 事件
+http://www.runoob.com/jsref/event-form-onsubmit.html
+*****onSubmit="return check(form1)"注意return**********
+
+语法
+onsubmit="JavaScriptCode"
+
+onSubmit="return check(form1)"
+onClick="return check(form1)"
+注意return
+
+参数	描述
+JavaScriptCode	必须。事件触发后指定执行的 JavaScript 代码。
+
+onSubmit="return checkNull(form1)"
+
+/JSP135_2/WebContent/index.jsp
+<form name="form1" method="post" action="deal.jsp" onSubmit="return checkNull(form1)">
+function checkNull(form){
+	for(i=0;i<form.length;i++){  
+		if(form.elements[i].value == ""){         //form的属性elements的首字e要小写
+			alert("很抱歉，"+form.elements[i].title + "不能为空!");
+			form.elements[i].focus();			//当前元素获取焦点
+			return false;
+		}
+	}
+}
+</script>
