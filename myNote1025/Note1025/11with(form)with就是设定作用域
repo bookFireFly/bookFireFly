@@ -1,0 +1,21 @@
+/myNote1025/Note1025/11with(form)with就是设定作用域
+
+<script type="text/javascript">
+function calc(form){
+	with(form){
+		if (firstNum.value == "" || secondNum.value == ""){
+			alert("请输入数字！");
+			return false;
+		}
+		if (isNaN(firstNum.value) || isNaN(secondNum.value)){
+			alert("数字格式错误！");
+			return false;
+		}
+		if (operator.value = "-1"){
+			alert("请选择运算符！");
+			return false;
+		}
+	}
+	
+}
+</script>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="C:\Programming Software\apache-tomcat-9.0.1\lib" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="480,578" key="UserLibraryLoadSaveDialog.size"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
@@ -30,6 +32,17 @@
 		<item value="728" key="DIALOG_HEIGHT"/>
 		<item value="524" key="DIALOG_X_ORIGIN"/>
 		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="-14" key="DIALOG_X_ORIGIN"/>
+			<item value="4" key="DIALOG_Y_ORIGIN"/>
+		</section>
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
@@ -77,6 +90,7 @@
 		<item value="true" key="IgnoreDefault"/>
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="Comments"/>
+		<item value="2" key="InsertPosition.v2"/>
 		<item value="1" key="VisibilityModifier"/>
 		<item value="0" key="StringStyle"/>
 		<item value="0" key="ToStringTemplateSelected"/>
@@ -98,6 +112,14 @@
 	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="nls_accessor_history">
+		<section name="0">
+			<item value="Messages" key="accessorName"/>
+			<item value="=SL161/src&lt;com.fly.serv" key="bundlePackage"/>
+			<item value="messages.properties" key="bundleName"/>
+			<item value="=SL161/src&lt;com.fly.serv" key="accessorPackage"/>
+		</section>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\bookFireFly\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\bookFireFly\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JB154" path="/JB154" reloadable="true" source="org.eclipse.jst.jee.server:JB154"/><Context docBase="D:\bookFireFly\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JB157_1" path="/JB157_1" reloadable="true" source="org.eclipse.jst.jee.server:JB157_1"/><Context docBase="D:\bookFireFly\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JB157_2" path="/JB157_2" reloadable="true" source="org.eclipse.jst.jee.server:JB157_2"/><Context docBase="D:\bookFireFly\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JB157_3" path="/JB157_3" reloadable="true" source="org.eclipse.jst.jee.server:JB157_3"/></Host>
+      <Context docBase="D:\bookFireFly\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\bookFireFly\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\FT173" path="/FT173" reloadable="true" source="org.eclipse.jst.jee.server:FT173"/></Host>
     </Engine>
   </Service>
 </Server>

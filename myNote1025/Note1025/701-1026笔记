@@ -5,3 +5,5 @@ onClick="return check(form1)"
 注意return
 
 *******************************
+javasript 注意 == 不能写成=
+if (firstNum.value == "" || secondNum.value == "")
