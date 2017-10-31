@@ -1,0 +1,36 @@
+正则表达式
+
+过滤器URL映射可以使用正则表达式进行配置
+/*,匹配斜杠/
+
+###小结,书写错误
+
+******************************
+错误: 找不到或无法加载主类 org.apache.catalina.startup.Bootstrap
+
+An internal error occurred during: "Loading descriptor for FT176.".
+org.eclipse.emf.ecore.xmi.FeatureNotFoundException: 
+Feature 'url-patter' not found. 
+(platform:/resource/FT176/WebContent/WEB-INF/web.xml, 22, 14)
+还找不到run on server
+
+[解决方法]:不能手动添加web.xml .要复制点东西进去.~~是大量书写错误
+
+
+******************************
+The origin server did not find a current representation 
+for the target resource or is not willing to disclose that one exists.
+
+严重: Exception starting filter [com.CountFilter]
+
+The origin server did not find a current representation 
+for the target resource or is not willing to disclose that one exists.
+
+
+******************************
+与实例对比除错
+`Addservlet书写错误	Y
+`<web-app>	<welcome-file-list>
+`<param-value>UTF-8</param-value>	GB18030Y
+`<url-pattern>/*</url-pattern>
+<url-patter>书写错误

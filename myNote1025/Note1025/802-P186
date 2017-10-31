@@ -1,0 +1,32 @@
+*********************************
+SQL Server如何导入mdf，ldf文件
+
+EXEC  sp_attach_db  @dbname  =  '你的数据库名',     
+@filename1  =  'mdf文件路径（包缀名）',     
+@filename2  =  'Ldf文件路径（包缀名）'
+https://jingyan.baidu.com/article/09ea3ede21258cc0afde3943.html
+
+
+**********************************
+记住，jdk6.0以上就用sqljdbc4.jar包
+
+com.microsoft.sqlserver.jdbc.SQLServerException: 到主机  的 TCP/IP 连接失败。
+
+http://www.cnblogs.com/xdalsh/p/7051436.html
+
+**********************************
+String sql = "insert into tb_user(username,password,sex,question,answer,email) "
+						+ "values(?,?,?,?,?,?)";
+						
+sql语法		
+
+**********************************
+@WebServlet("/SaveServlet")
+XML
+action="SavaServlet"
+不配置好,不断出错
+1.@WebServlet,老是无法运行
+The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.
+2.暂时跳过
+The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:P186' did not find a matching property.

@@ -1,0 +1,13 @@
+留意
+ServletContext与application的关系
+
+###小结多了自动注解
+
+ServletContext context = req.getSession().getServletContext();
+context.setAttribute("count", count);
+<%=application.getAttribute("count") %>
+
+[debug]
+//dubug:注释掉@WebFilter("/CountFilter"),去掉注解
+IDE主动生产@WebFilter("/CountFilter")注解,要注释掉
+严重: Exception starting filter [com.CountFilter]

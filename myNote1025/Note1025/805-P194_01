@@ -1,0 +1,16 @@
+The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context}
+ Setting property 'source' to 'org.eclipse.jst.jee.server:
+ P194_01' did not find a matching property.
+http://blog.sina.com.cn/s/blog_6cd73dfb0100ywf6.html
+@@未配置XML
+
+配置后解决
+<servlet-mapping>
+		<servlet-name>MessageServlet</servlet-name>
+		<url-pattern>/MessageServlet</url-pattern>
+</servlet-mapping>
+
+
+*******************************
+小结:在filter里重写request及其方法,完成过滤
