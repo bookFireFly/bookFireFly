@@ -1,0 +1,2 @@
+count(*) 在这里代表对行进行计数
+String sql = "select count(*) from tb_product";
