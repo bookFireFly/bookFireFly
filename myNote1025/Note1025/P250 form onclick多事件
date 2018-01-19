@@ -1,0 +1,1 @@
+<input type="image" name="imageField" src="images/bt_2.gif" onClick="form1.reset();return false;">

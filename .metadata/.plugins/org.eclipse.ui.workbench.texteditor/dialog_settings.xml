@@ -6,15 +6,15 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="GB18030" key="selection"/>
+		<item value="UTF-8" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="ISO-8859-1"/>
 			<item value="GB18030"/>
 			<item value="UTF-8"/>
+			<item value="ISO-8859-1"/>
 			<item value="login"/>
 			<item value="produce"/>
 			<item value="NO"/>
@@ -29,8 +29,8 @@
 			<item value="&#x09;font-family: 仿宋;"/>
 		</list>
 		<list key="replacehistory">
-			<item value="GB18030"/>
 			<item value="UTF-8"/>
+			<item value="GB18030"/>
 			<item value="person"/>
 			<item value="IDNum"/>
 			<item value="checkIDNum"/>
@@ -43,10 +43,10 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="300" key="DIALOG_WIDTH"/>
+		<item value="301" key="DIALOG_WIDTH"/>
 		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 		<item value="410" key="DIALOG_HEIGHT"/>
-		<item value="944" key="DIALOG_X_ORIGIN"/>
+		<item value="943" key="DIALOG_X_ORIGIN"/>
 		<item value="181" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

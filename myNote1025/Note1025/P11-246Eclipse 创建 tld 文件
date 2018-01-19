@@ -1,0 +1,8 @@
+Eclipse 创建 tld 文件
+在 Eclipse 相应工程中右键单击 WEB-INF 目录弹出选项框，依次选：
+->New->Other->XML->XML File->next->要取的文件名.tld
+->next->Create XML File from an XML schema file
+->next->Select XML Catalog entry
+选择 http://xmlns.jcp.org/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd 这一项，点击 Finish 即可。
+结果根是:
+</j2ee:taglib>,不是</taglib>,还是不对
