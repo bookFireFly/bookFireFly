@@ -6,4 +6,5 @@
   <source-attachment entry="C:/Programming Software/apache-tomcat-9.0.1/lib/servlet-api.jar" runtime-id="Apache Tomcat v9.0" source-attachment-path="C:/Programming Software/apache-tomcat-9.0.1-src.zip">
     <attribute name="source_encoding" value="UTF-8"/>
   </source-attachment>
+  <source-attachment entry="C:/Programming Software/apache-tomcat-9.0.1/lib/tomcat-coyote.jar" runtime-id="Apache Tomcat v9.0" source-attachment-path="C:/Programming Software/apache-tomcat-9.0.1-src.zip"/>
 </classpath>
