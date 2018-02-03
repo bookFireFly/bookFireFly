@@ -1,0 +1,12 @@
+正则表达式
+var a = /^(\d{1,4})(-|v)(\d{1,2})\2(\d{1,2})/;
+		if (!a.test(document.form1.user.value)) {
+			alert("日期格式不正确！");
+			return false;
+		} else {
+			return true;
+		}
+
+多了properties			
+/P335-2/src/xwork-conversion.properties		
+com.User=com.UserConverter		
