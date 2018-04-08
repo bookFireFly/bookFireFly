@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.person">
+	<class name="Person" table="tab_person1">
+ 		<id name="id" column="id" type="int">
+			<generator class="native"></generator>
+		</id>
+		<property name="name" type="string" length="45" not-null="true">
+			<column name="name"/>
+		</property>
+		<property name="age" type="int" >
+			<column name="age"/>
+		</property>
+		<property name="sex" type="string" >
+			<column name="sex"/>
+		</property>
+		<joined-subclass name="Student" table="tab_student">
+			<key column="id"/>
+			<property name="school"></property>
+		</joined-subclass>
+		<joined-subclass name="Staffer" table="tab_staffer">
+			<key column="id"/>
+			<property name="company"></property>
+		</joined-subclass>
+	</class>
+</hibernate-mapping>

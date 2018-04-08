@@ -1,0 +1,14 @@
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.devMode" value="true"></constant>
+	<!-- 声明包 -->
+	<package name="firefly" extends="struts-default" namespace="/">
+		<!-- 定义action -->
+		<action name="ognl" class="com.OGNLAction">
+			<!-- 定义处理成功后的映射页面 -->
+			<result name="success">/success.jsp</result>
+		</action>
+	</package>
+</struts>	

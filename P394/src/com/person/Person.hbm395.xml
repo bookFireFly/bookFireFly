@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.person">
+	<class name="Person" table="tab_person">
+ 		<id name="id" column="id" type="int">
+			<generator class="native"></generator>
+		</id>
+		<discriminator column="type" type="string"></discriminator>
+		<property name="name" type="string" length="45" not-null="true">
+			<column name="name"/>
+		</property>
+		<property name="age" type="int" >
+			<column name="age"/>
+		</property>
+		<property name="sex" type="string" >
+			<column name="sex"/>
+		</property>
+		<subclass name="Student" discriminator-value="学生">
+			<property name="school"><column name="school"/></property>
+		</subclass>
+		<subclass name="Staffer" discriminator-value="职员">
+			<property name="company"></property>
+		</subclass>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.user.User" table="tab_user">
+ 		<id name="id" column="id" type="int">
+			<generator class="native"/>
+		</id>
+		<property name="name" type="string" length="45" not-null="true">
+			<column name="name"/>
+		</property>
+		<set name="roles" table="tab_mapping">
+			<key column="user_id"></key>
+			<many-to-many class="com.role.Role" column="role_id"></many-to-many>
+		</set>
+	</class>
+</hibernate-mapping>
