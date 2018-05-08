@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	<bean id="user1" class="com.UserInfo">
+		<property name="name">
+			<value>小强</value>
+		</property>
+		<property name="age">
+			<value>26</value>
+		</property>
+		<property name="sex">
+			<value>男</value>
+		</property>
+		<property name="date">
+			<value>1985/1/5</value>
+		</property>
+	</bean>
+	<bean id="customEditorConfigurer" 
+	class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+		<property name="customEditors">
+			<map>
+				<entry key="java.util.Date">
+					<bean id="MyDateEditor" class="com.MyDateEditor"></bean>
+				</entry>
+			</map>
+		</property>
+	</bean>
+</beans>	
